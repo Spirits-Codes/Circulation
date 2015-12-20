@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="package" version="3.x" method="upgrade">
+ <identifier>pkg:circulation</identifier>
+ <name>Circulation Package</name>
+ <author>Kian William Nowrouzian</author>
+ <creationDate>Oct 2015</creationDate>
+ <packagename>circulation</packagename>
+ <version>1.0.0</version>
+ <url>http://www.myextenstions.lord121.ir</url>
+ <packager>Kian William Nowrouzian</packager>
+ <packagerurl>http://www.myextenstions.lord121.ir</packagerurl>
+ <description><![CDATA[<div style="color:#fff; background-color:#f015d9; padding:5px;">The complete package of circulation gallery including both component and module, Enjoy!</div> ]]></description>
+ <update>http://www.myextenstions.lord121.ir</update>
+ <files>
+   <file type="component" id="com_circulation" >admin.zip</file>
+   <file type="module" id="mod_circulation" client="site">modules.zip</file>
+</files>
+ </extension>

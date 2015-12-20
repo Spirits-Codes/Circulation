@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension	type="module" version="3.x" method="upgrade" client="site" >
+	<name>Circulation</name>
+	<author>Kian William Nowrouzian</author>
+	<creationDate>Oct 2015</creationDate>
+	<copyright>Copyright (C) 2015 http://www.myextenstions.lord121.ir, All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>mezmer121@gmail.com</authorEmail>
+	<authorUrl>http://www.myextensions.lord121.ir</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[
+			<div style="font-weight:bold;background-color:#B94FB6;color:#fff;padding:5px">
+			<p><strong>Module Circulation, all configurations are in backend of the component.</strong></p>
+			<p>
+				For support &/or any question go to <a href="http://www.myextenstions.lord121.ir" target="_blank">Extensions</a>
+			</p>
+			<small style="float:right">ver. 1.0.0</small>
+			</div>
+     ]]>
+	 </description>
+	 <files>
+		<filename module="mod_circulation">mod_circulation.php</filename>
+		<filename>mod_circulation.xml</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>index.html</filename>
+	 </files>
+	 <languages folder="language">
+         <language tag="en-GB">en-GB.mod_circulation.ini</language>
+         <language tag="en-GB">en-GB.mod_circulation.sys.ini</language>
+     </languages>
+	 <config>	 
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="list" name="jQuery" label="MOD_CIRCULATION_LOAD_LABEL" description="MOD_CIRCULATION_LOAD_DESC" default="1">
+					<option value="0">Yes</option>
+					<option value="1">No</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field type="sql" name="title" label="MOD_CIRCULATION_GALLERY_ID_LABEL" description="MOD_CIRCULATION_GALLERY_ID_DESC" query="SELECT id as VALUE, title FROM #__circulation_gallery" default="1" />
+			</fieldset>
+		</fields>
+	 </config>
+
+</extension>
