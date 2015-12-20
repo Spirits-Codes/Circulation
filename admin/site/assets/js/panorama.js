@@ -120,7 +120,7 @@
 				 
 						if(n==4)
 						{
-							 if(index0<limit0)
+							 if(index0<limit0-1)
 				             {
 					           index0++;
 				             }
@@ -128,7 +128,7 @@
 							 {
 					           index0=0;
 							 }
-				            if(index1<limit1)
+				            if(index1<limit1-1)
 				            {
 					           index1++;
 				            }
@@ -136,7 +136,7 @@
 							{
 					          index1=constant;
 							}
-				            if(index2<limit2)
+				            if(index2<limit2-1)
 				            {
 					            index2++;
 				            }
@@ -144,7 +144,7 @@
 							{
 					          index2=constant*2;
 							}
-				             if(index3<limit3)
+				             if(index3<limit3-1)
 				             {
 					             index3++;
 				               }
