@@ -7,7 +7,7 @@ module to make it work, and don't forget the number of images
 must be divisble by 4 and equal or greater than 8.
 in comment part for special characters add backslash(\) before them.
 you may download it at:
-http://www.myextenstions.lord121.ir/2015-12-17-11-58-05/com-circ.html
+http://www.extensions.lord121.ir/mycomponents/circulation-download.html
 In case of any problem contact me at:
 mezmer121@gmail.com
 long live science.
